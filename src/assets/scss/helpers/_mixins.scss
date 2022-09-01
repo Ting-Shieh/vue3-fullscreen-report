@@ -1,0 +1,27 @@
+@mixin setCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin setRandomBgColor{
+  background: rgb(random(255),random(255),random(255));
+}
+
+@mixin setFlexRow{
+  display: flex;
+  flex-direction: row;
+}
+@mixin setFlexCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin setFlexColumn{
+  display: flex;
+  flex-direction: column;
+}
+@mixin setWh($w, $h){
+  width: $w;
+  height: $h;
+}
